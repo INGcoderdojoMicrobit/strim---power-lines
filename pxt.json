@@ -1,0 +1,31 @@
+{
+    "name": "strim - power lines",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.44",
+        "tag": "v1.4.44",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/a22995c560b516a501328716333b8cc8caf7cc9c",
+        "target": "1.7.24",
+        "pxt": "6.12.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
